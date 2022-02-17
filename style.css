@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(180deg);
+}
+.carditems{
+    width: 18rem;
+    margin: 0 auto;
+}
+.title{
+    margin: 30px;
+}
+.price{
+    color: green;
+}
+.discount{
+    color: red;
+}
+.details-button{
+    display: flex;
+    justify-content: center;
+   border-bottom: 2px solid rebeccapurple;
+}
+.details-button:hover{
+    color: rebeccapurple;
+}
+.btn:hover{
+    box-shadow: 10px 10px 10px gray;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details-product>p{
+     text-align: justify ;
+}
+.user{
+    width: 80%;
+}
+
